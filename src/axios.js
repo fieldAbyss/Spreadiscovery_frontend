@@ -5,7 +5,6 @@ const axios = axiosBase.create({
   headers: {
     'Content-Type': 'application/json',
     'Accept': 'application/json'
-    // 'Authorization': process.env.REACT_APP_API_ACCESS_TOKEN
   },
   responseType: 'json'
 });
