@@ -5,6 +5,7 @@ import Exchange from './exchange/exchange';
 import Donate from './information/donate';
 import Contact from './information/contact';
 import PrivacyPolicy from './information/privacyPolicy';
+import AdSense from './information/AdSense';
 
 import fontawesome from '@fortawesome/fontawesome'
 import brands from '@fortawesome/fontawesome-free-brands'
@@ -47,6 +48,7 @@ class Common extends Component {
             <Route path="/privacy-policy" component={PrivacyPolicy} />
         </Switch>
         <footer className="my-5 pt-5 text-muted text-center text-small">
+          <AdSense />
           <ul className="list-inline">
             <li className="list-inline-item mx-3"><NavLink to="/privacy-policy">Privacy Policy</NavLink></li>
             <li className="list-inline-item mx-3"><NavLink to="/donate"><i className="fab fa-ethereum"></i> Donate</NavLink></li>
