@@ -41,6 +41,9 @@ class Common extends Component {
             </div>
           </div>
         </nav>
+        <div className="my-5 pt-5 text-muted text-center text-small">
+          <AdSense />
+        </div>
         <Switch>
             <Route exact path="/" component={Exchange} />
             <Route path="/donate" component={Donate} />
